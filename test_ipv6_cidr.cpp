@@ -54,10 +54,7 @@ TEST(ipv6_cidr_table, Insert) {
     ipv6_cidr_table_clear(&tab);
 }
 
-int main(int argc, char **argv){
-
+int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
-	return RUN_ALL_TESTS();
-
-	return 0;
+    return RUN_ALL_TESTS();
 }

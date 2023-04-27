@@ -14,4 +14,4 @@ You can use it as static library or just copy the .h and .c files to your projec
 1. This library use FreeBSD's queue implementation which is commonly used in C projects. 
 The queue.h is slightly modified to make it cross-platform. 
 
-2. The test can only be run on Linux for now. 
+2. You have to install gtest before running test.
